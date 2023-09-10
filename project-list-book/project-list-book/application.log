@@ -1,0 +1,7 @@
+14:19:13.563 [main] INFO  h.l.service.ListBooksServiceImpl - Sukses menambahkan buku
+14:19:13.804 [main] INFO  h.l.service.ListBooksServiceImpl - 
+--Data Buku--
+14:19:13.805 [main] INFO  h.l.service.ListBooksServiceImpl - Tahun    : 1900
+14:19:13.807 [main] INFO  h.l.service.ListBooksServiceImpl - Judul    : pahlawan ku
+14:19:13.807 [main] INFO  h.l.service.ListBooksServiceImpl - Penulis  : muhammad ali
+14:19:13.807 [main] INFO  h.l.service.ListBooksServiceImpl - Penerbit : grammedia

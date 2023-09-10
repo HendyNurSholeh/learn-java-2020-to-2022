@@ -1,0 +1,83 @@
+13:58:01.905 [main] INFO  hyns.listbook.view.ListBooksView - 
+APLIKASI PERPUSTAKAAN BUKU
+13:58:01.918 [main] INFO  hyns.listbook.view.ListBooksView - 1. Melihat Seluruh Buku
+13:58:01.919 [main] INFO  hyns.listbook.view.ListBooksView - 2. Menambah Buku
+13:58:01.919 [main] INFO  hyns.listbook.view.ListBooksView - 3. Menghapus Buku
+13:58:01.920 [main] INFO  hyns.listbook.view.ListBooksView - 4. Cari Buku
+13:58:01.923 [main] INFO  hyns.listbook.view.ListBooksView - 5. Memperbarui Buku
+13:58:01.924 [main] INFO  hyns.listbook.view.ListBooksView - x. Keluar
+13:58:14.922 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+
+13:58:14.927 [main] INFO  hyns.listbook.utility.PrintUtil - | NO  | TAHUN | JUDUL                    | PENULIS             | PENERBIT          |
+13:58:14.928 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+
+13:58:14.929 [main] INFO  hyns.listbook.utility.PrintUtil - | 1   | 1900  | pahlawan ku              | muhammad ali        | grammedia         |
+13:58:14.930 [main] INFO  hyns.listbook.utility.PrintUtil - | 2   | 2007  | tenggelamkan jiwaku      | eric pethom         | book enterprice   |
+13:58:14.930 [main] INFO  hyns.listbook.utility.PrintUtil - | 3   | 1995  | desa terlarang           | jhonson michel      | posmen            |
+13:58:14.931 [main] INFO  hyns.listbook.utility.PrintUtil - | 4   | 2020  | the power of habits      | cretpenthon         | American Books    |
+13:58:14.932 [main] INFO  hyns.listbook.utility.PrintUtil - | 5   | 2007  | rumah berhantu           | hendy cervensen     | mustika sari      |
+13:58:14.932 [main] INFO  hyns.listbook.utility.PrintUtil - | 6   | 1990  | bicara itu ada seninya   | muhammad ali        | grammedia         |
+13:58:14.932 [main] INFO  hyns.listbook.utility.PrintUtil - | 7   | 2020  | kkn desa kenari          | sugiman simanjuntak | gramedia          |
+13:58:14.933 [main] INFO  hyns.listbook.utility.PrintUtil - | 8   | 2018  | kawan lama               | carpentom           | geonime           |
+13:58:14.934 [main] INFO  hyns.listbook.utility.PrintUtil - | 9   | 2004  | laskar                   | hendy               | gramedia          |
+13:58:14.934 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+
+13:58:26.006 [main] INFO  hyns.listbook.view.ListBooksView - 
+APLIKASI PERPUSTAKAAN BUKU
+13:58:26.008 [main] INFO  hyns.listbook.view.ListBooksView - 1. Melihat Seluruh Buku
+13:58:26.009 [main] INFO  hyns.listbook.view.ListBooksView - 2. Menambah Buku
+13:58:26.010 [main] INFO  hyns.listbook.view.ListBooksView - 3. Menghapus Buku
+13:58:26.010 [main] INFO  hyns.listbook.view.ListBooksView - 4. Cari Buku
+13:58:26.011 [main] INFO  hyns.listbook.view.ListBooksView - 5. Memperbarui Buku
+13:58:26.016 [main] INFO  hyns.listbook.view.ListBooksView - x. Keluar
+13:58:57.308 [main] INFO  hyns.listbook.view.ListBooksView - MENAMBAH BUKU
+13:58:57.315 [main] WARN  hyns.listbook.utility.ConvertUtil - Input Salah, Silahkan masukkan input sesuai format
+13:59:18.696 [main] WARN  hyns.listbook.utility.ConvertUtil - Input Salah, Silahkan masukkan input sesuai format
+13:59:44.731 [main] INFO  hyns.listbook.view.ListBooksView - 
+--Data Buku--
+13:59:44.732 [main] INFO  hyns.listbook.view.ListBooksView - Judul    : buku
+13:59:44.737 [main] INFO  hyns.listbook.view.ListBooksView - Tahun    : 2009
+13:59:44.737 [main] INFO  hyns.listbook.view.ListBooksView - Penulis  : nuuku
+13:59:44.738 [main] INFO  hyns.listbook.view.ListBooksView - Penerbit : juj
+13:59:52.211 [main] INFO  h.l.service.ListBooksServiceImpl - Sukses menambahkan buku
+14:00:05.028 [main] INFO  hyns.listbook.view.ListBooksView - 
+APLIKASI PERPUSTAKAAN BUKU
+14:00:05.028 [main] INFO  hyns.listbook.view.ListBooksView - 1. Melihat Seluruh Buku
+14:00:05.029 [main] INFO  hyns.listbook.view.ListBooksView - 2. Menambah Buku
+14:00:05.030 [main] INFO  hyns.listbook.view.ListBooksView - 3. Menghapus Buku
+14:00:05.031 [main] INFO  hyns.listbook.view.ListBooksView - 4. Cari Buku
+14:00:05.031 [main] INFO  hyns.listbook.view.ListBooksView - 5. Memperbarui Buku
+14:00:05.032 [main] INFO  hyns.listbook.view.ListBooksView - x. Keluar
+14:00:31.148 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+
+14:00:31.149 [main] INFO  hyns.listbook.utility.PrintUtil - | NO  | TAHUN | JUDUL                    | PENULIS             | PENERBIT          |
+14:00:31.150 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+
+14:00:31.150 [main] INFO  hyns.listbook.utility.PrintUtil - | 1   | 1900  | pahlawan ku              | muhammad ali        | grammedia         |
+14:00:31.151 [main] INFO  hyns.listbook.utility.PrintUtil - | 2   | 2007  | tenggelamkan jiwaku      | eric pethom         | book enterprice   |
+14:00:31.151 [main] INFO  hyns.listbook.utility.PrintUtil - | 3   | 1995  | desa terlarang           | jhonson michel      | posmen            |
+14:00:31.152 [main] INFO  hyns.listbook.utility.PrintUtil - | 4   | 2020  | the power of habits      | cretpenthon         | American Books    |
+14:00:31.153 [main] INFO  hyns.listbook.utility.PrintUtil - | 5   | 2007  | rumah berhantu           | hendy cervensen     | mustika sari      |
+14:00:31.154 [main] INFO  hyns.listbook.utility.PrintUtil - | 6   | 1990  | bicara itu ada seninya   | muhammad ali        | grammedia         |
+14:00:31.154 [main] INFO  hyns.listbook.utility.PrintUtil - | 7   | 2020  | kkn desa kenari          | sugiman simanjuntak | gramedia          |
+14:00:31.155 [main] INFO  hyns.listbook.utility.PrintUtil - | 8   | 2018  | kawan lama               | carpentom           | geonime           |
+14:00:31.155 [main] INFO  hyns.listbook.utility.PrintUtil - | 9   | 2004  | laskar                   | hendy               | gramedia          |
+14:00:31.156 [main] INFO  hyns.listbook.utility.PrintUtil - | 10  | 2009  | buku                     | nuuku               | juj               |
+14:00:31.156 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+
+14:01:01.598 [main] INFO  hyns.listbook.view.ListBooksView - 
+APLIKASI PERPUSTAKAAN BUKU
+14:01:01.605 [main] INFO  hyns.listbook.view.ListBooksView - 1. Melihat Seluruh Buku
+14:01:01.605 [main] INFO  hyns.listbook.view.ListBooksView - 2. Menambah Buku
+14:01:01.605 [main] INFO  hyns.listbook.view.ListBooksView - 3. Menghapus Buku
+14:01:01.607 [main] INFO  hyns.listbook.view.ListBooksView - 4. Cari Buku
+14:01:01.607 [main] INFO  hyns.listbook.view.ListBooksView - 5. Memperbarui Buku
+14:01:01.607 [main] INFO  hyns.listbook.view.ListBooksView - x. Keluar
+14:01:06.359 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+
+14:01:06.360 [main] INFO  hyns.listbook.utility.PrintUtil - | NO  | TAHUN | JUDUL                    | PENULIS             | PENERBIT          |
+14:01:06.361 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+
+14:01:06.362 [main] INFO  hyns.listbook.utility.PrintUtil - | 1   | 1900  | pahlawan ku              | muhammad ali        | grammedia         |
+14:01:06.363 [main] INFO  hyns.listbook.utility.PrintUtil - | 2   | 2007  | tenggelamkan jiwaku      | eric pethom         | book enterprice   |
+14:01:06.364 [main] INFO  hyns.listbook.utility.PrintUtil - | 3   | 1995  | desa terlarang           | jhonson michel      | posmen            |
+14:01:06.364 [main] INFO  hyns.listbook.utility.PrintUtil - | 4   | 2020  | the power of habits      | cretpenthon         | American Books    |
+14:01:06.364 [main] INFO  hyns.listbook.utility.PrintUtil - | 5   | 2007  | rumah berhantu           | hendy cervensen     | mustika sari      |
+14:01:06.365 [main] INFO  hyns.listbook.utility.PrintUtil - | 6   | 1990  | bicara itu ada seninya   | muhammad ali        | grammedia         |
+14:01:06.366 [main] INFO  hyns.listbook.utility.PrintUtil - | 7   | 2020  | kkn desa kenari          | sugiman simanjuntak | gramedia          |
+14:01:06.367 [main] INFO  hyns.listbook.utility.PrintUtil - | 8   | 2018  | kawan lama               | carpentom           | geonime           |
+14:01:06.368 [main] INFO  hyns.listbook.utility.PrintUtil - | 9   | 2004  | laskar                   | hendy               | gramedia          |
+14:01:06.368 [main] INFO  hyns.listbook.utility.PrintUtil - | 10  | 2009  | buku                     | nuuku               | juj               |
+14:01:06.368 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+

@@ -1,0 +1,92 @@
+11:49:12.902 [main] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at hyns.listbook.utility.ConnectorUtil.<clinit>(ConnectorUtil.java:21)
+	at hyns.listbook.App.main(App.java:18)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 12 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 15 common frames omitted
+11:51:10.522 [main] INFO  hyns.listbook.view.ListBooksView - 
+APLIKASI PERPUSTAKAAN BUKU
+11:51:10.530 [main] INFO  hyns.listbook.view.ListBooksView - 1. Melihat Seluruh Buku
+11:51:10.530 [main] INFO  hyns.listbook.view.ListBooksView - 2. Menambah Buku
+11:51:10.530 [main] INFO  hyns.listbook.view.ListBooksView - 3. Menghapus Buku
+11:51:10.531 [main] INFO  hyns.listbook.view.ListBooksView - 4. Cari Buku
+11:51:10.531 [main] INFO  hyns.listbook.view.ListBooksView - 5. Memperbarui Buku
+11:51:10.531 [main] INFO  hyns.listbook.view.ListBooksView - x. Keluar
+20:19:20.205 [main] INFO  hyns.listbook.view.ListBooksView - 
+APLIKASI PERPUSTAKAAN BUKU
+20:19:20.217 [main] INFO  hyns.listbook.view.ListBooksView - 1. Melihat Seluruh Buku
+20:19:20.217 [main] INFO  hyns.listbook.view.ListBooksView - 2. Menambah Buku
+20:19:20.217 [main] INFO  hyns.listbook.view.ListBooksView - 3. Menghapus Buku
+20:19:20.218 [main] INFO  hyns.listbook.view.ListBooksView - 4. Cari Buku
+20:19:20.219 [main] INFO  hyns.listbook.view.ListBooksView - 5. Memperbarui Buku
+20:19:20.220 [main] INFO  hyns.listbook.view.ListBooksView - x. Keluar
+20:19:53.245 [main] INFO  hyns.listbook.view.ListBooksView - MENAMBAH BUKU
+20:20:47.411 [main] INFO  hyns.listbook.view.ListBooksView - 
+--Data Buku--
+20:20:47.412 [main] INFO  hyns.listbook.view.ListBooksView - Judul    : laskar
+20:20:47.416 [main] INFO  hyns.listbook.view.ListBooksView - Tahun    : 2004
+20:20:47.417 [main] INFO  hyns.listbook.view.ListBooksView - Penulis  : hendy
+20:20:47.417 [main] INFO  hyns.listbook.view.ListBooksView - Penerbit : gramedia
+20:20:49.944 [main] INFO  hyns.listbook.view.ListBooksView - Input tidak dimengerti
+20:21:09.953 [main] INFO  h.l.service.ListBooksServiceImpl - Sukses menambahkan buku
+20:21:12.618 [main] INFO  hyns.listbook.view.ListBooksView - 
+APLIKASI PERPUSTAKAAN BUKU
+20:21:12.619 [main] INFO  hyns.listbook.view.ListBooksView - 1. Melihat Seluruh Buku
+20:21:12.620 [main] INFO  hyns.listbook.view.ListBooksView - 2. Menambah Buku
+20:21:12.621 [main] INFO  hyns.listbook.view.ListBooksView - 3. Menghapus Buku
+20:21:12.621 [main] INFO  hyns.listbook.view.ListBooksView - 4. Cari Buku
+20:21:12.622 [main] INFO  hyns.listbook.view.ListBooksView - 5. Memperbarui Buku
+20:21:12.622 [main] INFO  hyns.listbook.view.ListBooksView - x. Keluar
+20:21:15.845 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+
+20:21:15.846 [main] INFO  hyns.listbook.utility.PrintUtil - | NO  | TAHUN | JUDUL                    | PENULIS             | PENERBIT          |
+20:21:15.847 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+
+20:21:15.851 [main] INFO  hyns.listbook.utility.PrintUtil - | 1   | 1900  | pahlawan ku              | muhammad ali        | grammedia         |
+20:21:15.852 [main] INFO  hyns.listbook.utility.PrintUtil - | 2   | 2007  | tenggelamkan jiwaku      | eric pethom         | book enterprice   |
+20:21:15.852 [main] INFO  hyns.listbook.utility.PrintUtil - | 3   | 1995  | desa terlarang           | jhonson michel      | posmen            |
+20:21:15.853 [main] INFO  hyns.listbook.utility.PrintUtil - | 4   | 2020  | the power of habits      | cretpenthon         | American Books    |
+20:21:15.854 [main] INFO  hyns.listbook.utility.PrintUtil - | 5   | 2007  | rumah berhantu           | hendy cervensen     | mustika sari      |
+20:21:15.855 [main] INFO  hyns.listbook.utility.PrintUtil - | 6   | 1990  | bicara itu ada seninya   | muhammad ali        | grammedia         |
+20:21:15.856 [main] INFO  hyns.listbook.utility.PrintUtil - | 7   | 2020  | kkn desa kenari          | sugiman simanjuntak | gramedia          |
+20:21:15.857 [main] INFO  hyns.listbook.utility.PrintUtil - | 8   | 2018  | kawan lama               | carpentom           | geonime           |
+20:21:15.857 [main] INFO  hyns.listbook.utility.PrintUtil - | 9   | 2004  | laskar                   | hendy               | gramedia          |
+20:21:15.858 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/belajar-apache-maven.iml" filepath="$PROJECT_DIR$/belajar-apache-maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-apache-maven-app/belajar-apache-maven-app.iml" filepath="$PROJECT_DIR$/belajar-apache-maven-app/belajar-apache-maven-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar-apache-maven-data/belajar-apache-maven-data.iml" filepath="$PROJECT_DIR$/belajar-apache-maven-data/belajar-apache-maven-data.iml" />
+    </modules>
+  </component>
+</project>

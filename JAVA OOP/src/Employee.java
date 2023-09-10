@@ -1,0 +1,13 @@
+public class Employee {
+    String name;
+
+    Employee(String name){
+        this.name = name;
+    }
+    void sayHello(String name){
+        System.out.println("Hi "+ name+", My Name Is Employee "+this.name);
+    }
+    void sayHelllo(Employee nama){
+        System.out.println("Hi "+", My Name Is Employee "+nama.name);
+    }
+}

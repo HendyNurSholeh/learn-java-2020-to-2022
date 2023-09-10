@@ -1,0 +1,22 @@
+16:20:00.203 [main] INFO  hyns.listbook.view.ListBooksView - 
+APLIKASI PERPUSTAKAAN BUKU
+16:20:00.217 [main] INFO  hyns.listbook.view.ListBooksView - 1. Melihat Seluruh Buku
+16:20:00.218 [main] INFO  hyns.listbook.view.ListBooksView - 2. Menambah Buku
+16:20:00.219 [main] INFO  hyns.listbook.view.ListBooksView - 3. Menghapus Buku
+16:20:00.219 [main] INFO  hyns.listbook.view.ListBooksView - 4. Cari Buku
+16:20:00.220 [main] INFO  hyns.listbook.view.ListBooksView - 5. Memperbarui Buku
+16:20:00.221 [main] INFO  hyns.listbook.view.ListBooksView - x. Keluar
+16:20:20.680 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+
+16:20:20.682 [main] INFO  hyns.listbook.utility.PrintUtil - | NO  | TAHUN | JUDUL                    | PENULIS             | PENERBIT          |
+16:20:20.682 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+
+16:20:20.685 [main] INFO  hyns.listbook.utility.PrintUtil - | 1   | 1900  | pahlawan ku              | muhammad ali        | grammedia         |
+16:20:20.686 [main] INFO  hyns.listbook.utility.PrintUtil - | 2   | 2007  | tenggelamkan jiwaku      | eric pethom         | book enterprice   |
+16:20:20.687 [main] INFO  hyns.listbook.utility.PrintUtil - | 3   | 1995  | desa terlarang           | jhonson michel      | posmen            |
+16:20:20.688 [main] INFO  hyns.listbook.utility.PrintUtil - | 4   | 2020  | the power of habits      | cretpenthon         | American Books    |
+16:20:20.689 [main] INFO  hyns.listbook.utility.PrintUtil - | 5   | 2007  | rumah berhantu           | hendy cervensen     | mustika sari      |
+16:20:20.690 [main] INFO  hyns.listbook.utility.PrintUtil - | 6   | 1990  | bicara itu ada seninya   | muhammad ali        | grammedia         |
+16:20:20.690 [main] INFO  hyns.listbook.utility.PrintUtil - | 7   | 2020  | kkn desa kenari          | sugiman simanjuntak | gramedia          |
+16:20:20.692 [main] INFO  hyns.listbook.utility.PrintUtil - | 8   | 2018  | kawan lama               | carpentom           | geonime           |
+16:20:20.693 [main] INFO  hyns.listbook.utility.PrintUtil - | 9   | 2004  | laskar                   | hendy               | gramedia          |
+16:20:20.694 [main] INFO  hyns.listbook.utility.PrintUtil - | 10  | 2009  | buku                     | nuuku               | juj               |
+16:20:20.694 [main] INFO  hyns.listbook.utility.PrintUtil - +----------------------------------------------------------------------------------+
